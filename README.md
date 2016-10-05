@@ -1,4 +1,18 @@
 # communication-service
 The service that handles all E-mail and SMS based communication for different services
-What is an API?
+# What is an API?
 An Application Programming Interface (API) is a set of subroutine definitions, protocols, and tools for building software and applications. A good API makes it easier to develop a program by providing all the building blocks, which are then put together by the programmer. An API may be for a web-based system, operating system, database system, computer hardware, or software library. An API specification can take many forms, but often include specifications for routines, data structures, object classes, variables, or remote calls. POSIX, Microsoft Windows API, the C++ Standard Template Library, and Java APIs are examples of different forms of APIs.
+# Design
+The design of an API has significant impacts on its usability. The principle of information hiding describes the role of programming interfaces as enabling modular programming by hiding the implementation details of the modules so that users of modules need not understand the complexities inside the modules. Thus, the design of an API attempts to provide only the tools a user would expect. The design of programming interfaces represents an important part of software architecture, the organization of a complex piece of software.
+# working
+An API is a software-to-software interface, not a user interface. With APIs, applications talk to each other without any user knowledge or intervention. When you buy online and enter your credit card information, the Web site uses an API to send your credit card information to a remote application that verifies whether your information is correct. Once payment is confirmed, the remote application sends a response back to the Web site saying it's OK to issue the authority to buy.
+As a user, you only see one interface -- the Web site -- but behind the scenes, many applications are working together using APIs. This type of integration is called seamless, since the user never notices when software functions are handed from one application to another.
+An API resembles Software as a Service (SaaS), since software developers don't have to start from scratch every time they write a program. Instead of building one core application that tries to do everything -- e-mail, billing, tracking, etc. -- the same application can contract out certain responsibilities to remote software that does it better.
+With APIs, the calls back and forth between applications are managed through something called Web services. Web services are a collection of technological standards and protocols, including XML (Extensible Markup Language), the programming language by which applications communicate over the Internet.
+APIs and Web services are completely invisible to Web site surfers and software users. Their job is to run silently in the background, providing a way for applications to work with each other to get the user the information or functionality he needs.
+Along with XML, the following technological standards, protocols and programming languages are what make Web services work:
+
+SOAP (Simple Object Access Protocol): SOAP is responsible for encoding XML messages so that they can be received and understood by any operating system over any type of network protocol.
+UDDI (Universal Description, Discovery and Integration): Described as a "yellow pages for the Internet," UDDI is an XML-based directory that allows businesses to list themselves, find each other and collaborate using Web services.
+WSDL (Web Services Description Language): WDSL is the SOAP of the UDDI (enough acronyms for you?). Basically, WDSL is the XML-based language that businesses use to describe their services in the UDDI.
+
